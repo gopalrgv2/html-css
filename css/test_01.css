@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+.wraper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.div1{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    box-shadow: 2px 2px 2px rgb(161, 151, 151);
+    /* background-color: blueviolet; */
+    color: #fff;
+}
+.div2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.rDiv1{
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid black;
+}
+.lDiv2{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.div1 .div01{
+    height: 100%;
+    width: 45%;
+    /* border-right: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div1 .div02{
+    height: 100%;
+    width: 45%;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.div1 .div03{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+    width: 10%;
+
+    /* border-right: 1px solid black; */
+}
+/* .div3{
+    border: image 100px;
+} */
+.div02 div button{
+    height: 50px;
+    width: 80px;
+}
+.img-1{
+    height: 100px;
+}
+.rDiv1 div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rDiv1 div a{
+     padding: 10px; 
+   text-decoration: none;
+    text-align: center;
+}
+div a{
+    text-decoration: none;
+    font-style:normal ;
+    font-size: 30px;
+}
